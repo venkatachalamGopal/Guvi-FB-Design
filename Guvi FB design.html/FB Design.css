@@ -1,0 +1,164 @@
+body{
+    background-color:dimgrey
+}
+#icon{
+    display: flex;
+    gap:20%;
+    margin: 10px;padding: 10px;
+    height: 30px;
+   
+}
+input[type]{
+    height: 25px;
+    border-radius: 8px;
+    border: none;
+    width: 100%;text-align: left;
+    margin-top: 5px;
+    padding-left: 10px;
+    
+}
+
+a{
+    position: relative;
+    right: 40px;top: 10px;
+   
+}
+
+#div-1{
+    display: flex;justify-content: center;
+    gap: 10px; width: 500px;
+    height: 30px;
+    position: relative;
+    
+}
+#div-2{
+    display: flex;gap: 25px;
+    justify-content:center;
+    width: 500px;
+    height: 25px;
+    
+}
+#div-3{
+    display: flex;justify-content: center;
+    gap: 15px;  height: 25px;
+    margin-top: 5px;
+}
+
+.myphoto{
+    width: 25px;height: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#logo{
+    width: 80%;
+    display: flex;
+    margin-left: 13%;
+}
+.logo-img{
+   border-radius: 55px;
+   height: 120px;
+}
+
+.btn{
+    margin-top: 35px;
+    margin-left: 300px;
+    height:30px;width: 200px;
+    border-radius: 10px;
+    background-color: #2289ce;
+    color: white;
+    font-weight: bold;
+}
+.btn-sign{
+    position: relative; 
+    bottom: 3px;
+}
+#menu{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    width: 75%;
+   
+}
+.txt{
+    border-radius: 20px;
+}
+
+ul li {
+    display: inline;
+    padding: 5px;
+    
+} ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+sup{
+    background-color: red;
+    height: 15px; width: 18px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    right: 15px;
+    bottom: 3px;
+    font-size: 9px;
+}
+/* bottom style */
+#bottom{
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+#bottom-1{
+    background-color: aliceblue;
+    margin-right: 350px;
+    padding: 10px;
+    height: 200px;
+   
+}
+#about{
+    padding: 10px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+}
+#bottom-2{
+    background-color: aliceblue;
+    margin-right: 50px;
+    height: 130px;
+    
+}
+#post{
+    display: flex;
+    padding: 5px;
+    gap: 8px;
+    margin: 5px;
+}
+.post{
+    width: 280px;
+    text-align: center;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #2289ce;
+    color: white;
+}
+
+#post-2{
+    display: flex;
+    gap: 5px;
+   padding: 0px 5px;
+   margin: 5px;
+}
+.text{
+    position: relative;
+    bottom: 5px;
+    margin-left: 3px;
+}
+hr{
+    width: 80%;
+    position: relative;
+    bottom: 10px;
+}
